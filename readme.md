@@ -26,9 +26,11 @@ npm install tech-stack-node
 ```
 
 ## usage
+
 Here's how to use the Simple Stack in your JavaScript project:
+
 ```javascript
-const Stack = require('tech-stack-node');
+const Stack = require("tech-stack-node");
 
 // Create a stack with a capacity of 5
 const myStack = new Stack(5);
@@ -41,7 +43,7 @@ myStack.push(20);
 console.log(myStack.peek()); // Outputs: 20
 
 // Pop an item from the stack
-console.log(myStack.pop());  // Outputs: popping: 20
+console.log(myStack.pop()); // Outputs: popping: 20
 
 // Check if the stack is empty
 console.log(myStack.isEmpty()); // Outputs: false
@@ -104,9 +106,11 @@ We welcome contributions to improve this project. To contribute:
 5. Submit a pull request: Push your changes to your fork and create a pull request on the original repository.
 
 ## license
+
 This project is licensed under the ISC License.
 
 ## author
+
 - Full Name: Amirmohammad Hassanabadi
 - Email: hasanabadi.am1380@gmail.com
 - Github: https://github.com/amirmohammadhassanabadi
