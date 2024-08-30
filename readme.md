@@ -1,4 +1,4 @@
-# TIT-Stack
+# Tech-Stack-Node
 
 A JavaScript implementation of a stack data structure with custom error handling. This package provides basic stack operations including push, pop, peek, and additional features like capacity limits and stack clearing.
 
@@ -22,13 +22,13 @@ The Simple Stack package offers a straightforward stack implementation with robu
 You can install the package via npm. Run the following command in your terminal:
 
 ```bash
-npm install TIT-Stack
+npm install tech-stack-node
 ```
 
 ## usage
 Here's how to use the Simple Stack in your JavaScript project:
 ```javascript
-const Stack = require('tit-stack');
+const Stack = require('tech-stack-node');
 
 // Create a stack with a capacity of 5
 const myStack = new Stack(5);
